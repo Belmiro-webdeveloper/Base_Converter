@@ -1,0 +1,60 @@
+
+
+@media only screen and (min-width:600px) and (max-width:992px){
+
+
+	body{
+		font-family:Arial,helvetica,verdana,sans-serif;
+		margin:0px;
+	}
+	
+	h1{
+		font-size:2.5em;
+	}
+	h3{
+		font-size:1.5em;
+	}
+	
+	p{color:black;
+		font-size:16px;}
+		blockquote{
+		color:maroon;
+		font-style:italic;
+	}
+	a:hover{
+		color:black;
+	
+	}
+	a:link{
+		color:maroon;
+	}
+	a:visited{
+		color:#0033ff;
+	}
+	a:active{
+		color:maroon;
+		
+	}
+
+
+	header{
+		height: 3em;
+	}
+	.support{
+		top:3.6em;
+		left:3%;
+		font-size: 16px;
+		font-weight: solid;
+		line-height: 20px;
+		padding: 4px;
+		
+		}
+		.support ul li{
+			line-height: 0px;
+			margin:0px;
+			
+			}
+	.calculator{
+        width:50%;}
+
+}

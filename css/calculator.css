@@ -1,0 +1,306 @@
+
+
+html{
+	scroll-behavior:smooth;
+}
+div{
+	margin:0px;
+}
+
+h4{
+	font-size:19px;
+	color:black;
+}
+*{
+	text-align:center;
+}
+
+.text-white{
+	color: white !important;
+
+}
+
+
+fieldset{
+	border:1px solid black;
+}
+legend{
+	color:black;
+}
+input[type=submit]{
+	color:black;
+	padding:5px;
+	border-radius:4px;
+	background-color:white;
+	font-weight:bold;
+}
+input[type=submit]:hover{
+	opacity:0.5;
+}
+	
+
+
+body{
+	font-family:Arial,helvetica,verdana,sans-serif;
+	margin:0px;
+    height: 100%;
+}
+@font-face {
+font-family:hand_font;
+src:url(hand_font.ttf);
+}
+
+@font-face {
+	font-family:MyFont;
+	src:url(OpenBaskerville-0.0.53.otf);
+	}
+	
+
+@font-face {
+font-family:MyFont1;
+src: url(Summer.ttf);
+}
+
+
+
+
+@font-face {
+	font-family:MyFont2;
+	src: url(Letter_Cute.ttf);
+	
+	
+	}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px #ccc;
+    border-radius:20px;
+
+}
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(rgba(146, 177, 192, 0.94),rgba(27, 92, 122, 0.94));
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-image: linear-gradient(white,rgba(76,140,170,0.94));
+}
+::-webkit-scrollbar-button{
+   display:none;
+}
+/*End of scrolling bar*/
+
+.button{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to right,rgb(77, 49, 49),rgba(212, 26, 26, 0.94),rgba(255, 0, 0, 0.94));
+}
+
+
+.button:hover{
+    color:white;
+    background-image: linear-gradient(to right,rgb(197, 38, 38),rgba(231, 18, 18, 0.94),red);
+    border:1px white solid;
+    text-decoration: underline;
+    border-radius: 12px;
+    opacity:1;
+}
+
+/*Animations for FadeUp */
+.fadeup{
+    animation:fadeup 1s linear ;
+}
+@keyframes fadeup{
+    from{
+      opacity: 0;
+      top:-2em;
+      position: relative;
+    }
+    to{
+      opacity: 1;
+      top:0em;
+      position: relative;
+    }
+    
+  }
+  /*===End of animation  */
+
+  /*Animations for Faderight */
+.faderight{
+    animation:faderight 1s linear ;
+}
+@keyframes faderight{
+    from{
+        position: relative;
+      opacity: 0;
+      left:2em;
+      
+    }
+    to{
+        position: relative;
+      opacity: 1;
+      left:0em;
+      
+    }
+    
+  }
+  /*===End of animation faderight */
+  
+/*Animations for Fadeout */
+.fadeout{
+    animation: fadeout 1s linear;
+}
+
+@keyframes fadeout{
+    from{
+      opacity: 0;
+      transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+  }
+  
+  /*===End of animation  animation:change 0.5s linear; */
+
+  .card{
+      background-image: linear-gradient(to bottom right,rgb(5, 5, 255) ,rgb(8, 51, 92),rgb(8, 51, 92) );
+      color: white !important;
+      text-decoration: none;
+      border:1px dotted white;
+      box-shadow:1px 2px 3px black;
+    
+
+  }
+  
+
+  .card:hover{
+    animation:change 0.5s linear;
+    background-image: linear-gradient(to bottom right,rgb(5, 5, 255) ,rgb(8, 35, 61),rgb(1, 3, 5) );
+}
+@keyframes  change{
+    from{
+            background-image: linear-gradient(to bottom right,rgb(5, 5, 255) ,rgb(8, 51, 92),rgb(8, 51, 92) );
+    }
+    to{
+        background-image: linear-gradient(to bottom right,rgb(5, 5, 255) ,rgb(8, 35, 61),rgb(1, 3, 5) );
+    }
+}
+
+
+    .calculator{
+        height:auto;
+        margin:3em auto 0em auto;
+        display:flex;
+        flex-wrap:wrap;
+        border-radius: 10px;
+    }
+    .top_cal{
+        border-radius:10px 10px 0px 0px;
+    }
+    #convert{
+        color:white ;
+        background-color: black;
+        border-radius: 0px 0px 10px 0px;
+    }
+    #reset{
+        color:white ;
+        background-color: black;
+        border-radius: 0px 0px 0px 10px;
+    }
+    
+@media only screen and (max-width:600px){
+
+ .calculator{
+        width:97%;
+    
+    }
+        .calculator .button{
+            width:33.33%;
+        height:2.5em;
+        font-size: 21px;
+        }
+        .top_cal{
+            padding:3px 0px 3px 0px;
+          
+        }
+        #F{
+            width:100%;
+        }
+}
+    
+@media only screen and (min-width:600px){
+   
+        .calculator .button{
+            width:25%;
+        height:2.5em;
+        font-size: 21px;
+        }
+        .top_cal{
+            padding:10px 0px 10px 0px;
+        }
+
+}
+
+    .calculator .button{
+
+        border:1px solid black ;
+        border-radius:1px  ;
+        margin: 0px ;
+       
+
+    }
+    .top_cal{
+        border: 1px solid black;
+        width:49.1%;
+        margin:0;
+
+    }
+    .screen{
+
+        width: 98%;
+       padding: 14px 0px 14px 0px;
+        border-radius:10px;
+        background-color: black;
+        border: 1px dotted white;
+        font-size: 24px;
+        float:right;
+        font-weight: bold;
+        text-align: right;
+
+
+    }
+
+    header{
+       color:white;
+       background-image: linear-gradient(to bottom right, rgb(49, 47, 47),black);
+       position:fixed;
+       top:0px;
+       left:0px;
+       width:100%;
+       margin:0;
+       margin-bottom: 10px;
+    }
+    .fulldiv{
+        position: relative;
+        top:4em;
+
+    }
+    .support{
+        position:absolute;
+        background-image: radial-gradient(rgb(58, 58, 192), rgb(33, 33, 105));
+        color:white;
+        padding:0px;
+        border-radius:10px 0px 10px 0px;
+        height: auto !important;
+    }
+    footer{
+        position: absolute;
+        bottom:0px;
+        line-height: normal;
+        align-items: center;
+        width:100%;
+
+
+    }
+
