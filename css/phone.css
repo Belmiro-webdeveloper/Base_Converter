@@ -3,80 +3,84 @@
 @media only screen and (max-width:600px){
 
 
-body{
-	font-family:Arial,helvetica,verdana,sans-serif;
-	margin:0px;
-	text-align:center;
-	background:white;
-}
-h1{
-	font-size:1.5em;
-}
-.danger{
-	color:red;
-}
-h3{
-	font-size:1.1em;
-	color:black;
-}
-h4{
-	font-size:14px;
-	color:black;
-}
-p{
-	color:black;
-	font-size:16px;
-}
-span{
-	font-style:italic;
-	font-size:14px;
-}
-strong{
-	font-size:13px;
-}
-blockquote{
-	color:maroon;
-	font-style:italic;
-	font-size:12px;
-}
-a:hover{
-	color:black;
-	
-}
-a:link{
-	color:maroon;
-	
-}
-a:visited{
-	color:#0033ff;
-}
-a:active{
-	color:maroon;
-	
-}
-ul li{
-	font-size:12px;
-	opacity:0.9;
-}
-
-
-header{
-	height: 3em;
-}
-
-
-.support{
-top:3.3em;
-left:3%;
-font-size: 15px;
-font-weight: solid;
-line-height: 15px;
-
-}
-.support ul li{
-
-	line-height: 0px;
-	margin:0px;
-	
+	body{
+		font-family:Arial,helvetica,verdana,sans-serif;
+		margin:0px;
+		text-align:center;
+		background:white;
 	}
-}
+	h1{
+		font-size:1.5em;
+	}
+	.danger{
+		color:red;
+	}
+	h3{
+		font-size:1.1em;
+		color:black;
+	}
+	h4{
+		font-size:14px;
+		color:black;
+	}
+	p{
+		color:black;
+		font-size:16px;
+	}
+	span{
+		font-style:italic;
+		font-size:14px;
+	}
+	strong{
+		font-size:13px;
+	}
+	blockquote{
+		color:maroon;
+		font-style:italic;
+		font-size:12px;
+	}
+	a:hover{
+		color:black;
+		
+	}
+	a:link{
+		color:maroon;
+		
+	}
+	a:visited{
+		color:#0033ff;
+	}
+	a:active{
+		color:maroon;
+		
+	}
+	ul li{
+		font-size:12px;
+		opacity:0.9;
+	}
+	
+	
+	header{
+		height: 3em;
+		top:-1.2em;
+	}
+	.support{
+		top:-1.5em;
+	}
+	
+	
+		.fulldiv{
+		
+			top:-4em;
+	
+		}
+		footer{top:-3em;
+		}
+		.follow a i{
+			color:white;
+			font-size:1.9em;
+			padding:5px;
+			border-radius: 8px;
+	
+		}
+	}

@@ -274,20 +274,17 @@ src: url(Summer.ttf);
     header{
        color:white;
        background-image: linear-gradient(to bottom right, rgb(49, 47, 47),black);
-       position:fixed;
-       top:0px;
-       left:0px;
+       position:relative;
        width:100%;
        margin:0;
        margin-bottom: 10px;
     }
     .fulldiv{
         position: relative;
-        top:4em;
 
     }
     .support{
-        position:absolute;
+        position:relative;
         background-image: radial-gradient(rgb(58, 58, 192), rgb(33, 33, 105));
         color:white;
         padding:0px;
@@ -295,12 +292,24 @@ src: url(Summer.ttf);
         height: auto !important;
     }
     footer{
-        position: absolute;
-        bottom:0px;
+        position: relative;
         line-height: normal;
         align-items: center;
         width:100%;
+        margin-bottom: 1em;
 
 
+    }
+    .follow{
+        display:flex;
+        flex-direction: row;
+    }
+    .follow a{
+        width:30%;
+        margin:auto;
+        text-decoration: none!important;
+    }
+    .follow a i{
+        color:white;
     }
 
