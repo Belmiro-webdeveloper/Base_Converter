@@ -31,6 +31,7 @@ let arr = screen.split('');
             check =  arr.length;
 
         }
+        
         let temp ="";
        
         for(let i=0; i<arr.length; i++){
